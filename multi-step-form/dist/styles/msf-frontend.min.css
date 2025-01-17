@@ -32,8 +32,9 @@
 #multi-step-form div.fw-step-summary{font-size:1em;margin:0;padding:3px}#multi-step-form .fw-summary-alert{background-color:#f44336;padding:10px;text-align:center;text-transform:uppercase;font-size:13px;color:white}
 #multi-step-form .fw-summary-invalid{color:#f44336}#multi-step-form .fw-conditional-then-container{position:relative}
 #multi-step-form .fw-conditional-then{visibility:hidden;position:absolute;top:0;left:0}
-#multi-step-form .fw-conditional-then.fw-selected{visibility:visible}#multi-step-form .fw-step-block{margin-bottom:40px}
-#multi-step-form .fw-step-block:last-child{margin-bottom:0}#multi-step-form .fw-step-block input,#multi-step-form .fw-step-block textarea{display:inline-block !important;width:99% !important}
+#multi-step-form .fw-conditional-then.fw-selected{visibility:visible}#multi-step-form .fw-select{width:100%;height:40px;background-color:#fff;border-radius:0;border:1px solid #ddd}
+#multi-step-form .fw-step-block{margin-bottom:40px}#multi-step-form .fw-step-block:last-child{margin-bottom:0}
+#multi-step-form .fw-step-block input,#multi-step-form .fw-step-block textarea{display:inline-block !important;width:99% !important}
 #multi-step-form .fw-copytext{font-size:1.2em;line-height:1.4}#multi-step-form .fw-plain-layout{border-left:0 !important;background-color:transparent !important;padding:0 !important}
 #multi-step-form .fw-plain-layout .fw-step-part-title{margin:20px 0 20px 0 !important}
 #multi-step-form .fw-plain-layout .fw-step-part-body{margin-left:0 !important}#multi-step-form .fw-plain-layout .fa.form-control-feedback{left:16px}
@@ -46,14 +47,14 @@
 #multi-step-form [data-type=fw-checkbox] input[type=checkbox]:checked+label:before{content:"\2713";font-size:35px;color:#555;text-align:center;line-height:18px}
 #multi-step-form [data-type=fw-checkbox] input[type=checkbox]:focus+label:before{border-color:#999}
 #multi-step-form .fw-step-part-body .fw-step-summary-part{background:#f5f5f5 none repeat scroll 0 0;border:1px solid #ddd;padding-bottom:20px;padding-left:20px}
-#multi-step-form div[data-required="true"] h3:after{content:"*";color:#f44336;font-size:1.5em;position:relative;top:0;left:5px}
+#multi-step-form div[data-required="true"] .msf-h3:after{content:"*";color:#f44336;font-size:1.5em;position:relative;top:0;left:5px}
 #multi-step-form .fw-wizard-step-header-container{margin-bottom:20px}#multi-step-form .fw-wizard-step{position:relative}
 #multi-step-form .fw-step-part{float:left;width:100%;background:#e9e9e9 none repeat scroll 0 0;margin:0 0 50px 0;padding:20px 0 20px 0;position:relative;border-left:10px solid #546e7a;box-sizing:border-box}
 #multi-step-form .fw-step-part:last-child{margin:0 !important}#multi-step-form .fw-step-part:nth-last-of-type(2){margin:0 0 10px 0}
 #multi-step-form .fw-step-part>div{margin:0 20px 0 20px}#multi-step-form .fw-wizard-step-header{height:0;overflow:hidden}
-#multi-step-form .fw-wizard-step-header h2{font-size:2.5em;font-family:inherit;line-height:1.2}
-#multi-step-form .fw-wizard-step-header p{line-height:1.6;font-family:inherit}#multi-step-form h2.fw-step-part-title{float:left;margin:0 20px 20px 20px;font-size:1.8em;font-weight:normal;line-height:1.2}
-#multi-step-form .fw-wizard-step-container h3{font-weight:normal;font-size:1.2em;margin:10px 0 10px 0}
+#multi-step-form .fw-wizard-step-header .msf-h2{font-size:2.5em;font-family:inherit;line-height:1.2}
+#multi-step-form .fw-wizard-step-header p{line-height:1.6;font-family:inherit}#multi-step-form .fw-step-part-title{float:left;margin:0 20px 20px 20px;font-size:1.8em;font-weight:normal;line-height:1.2}
+#multi-step-form .fw-wizard-step-container .msf-h3{font-weight:normal;font-size:1.2em;margin:10px 0 10px 0}
 #multi-step-form .select2-container .select2-selection--single{height:35px}#multi-step-form .select2-dropdown{border:1px solid #ddd !important;border-radius:0 !important}
 #multi-step-form .select2-container--default .select2-selection--single{border:1px solid #ddd !important;border-radius:0 !important;height:40px !important;padding-top:3px !important}
 #multi-step-form .select2-container--default .select2-selection--single .select2-selection__rendered{color:#777 !important;line-height:34px !important;font-weight:400 !important;font-size:14px}
@@ -65,9 +66,9 @@
 #multi-step-form [data-type=fw-checkbox].fw-step-block{margin-bottom:10px}#multi-step-form .fw-choice.fw-input-container{margin-bottom:8px}
 #multi-step-form .fw-text-input,#multi-step-form .fw-text-input[type="text"],#multi-step-form .fw-textarea,#multi-step-form input.msfp-registration-input{width:100%;border:1px solid #ddd;outline:0;line-height:1.6em;font-size:13px;background-color:#fff;color:#555;box-sizing:border-box;padding-left:60px;position:relative}
 #multi-step-form .fw-text-input:focus,#multi-step-form .fw-text-input[type="text"]:focus,#multi-step-form .fw-textarea:focus,#multi-step-form input.msfp-registration-input:focus{color:#555;box-sizing:border-box}
-#multi-step-form .fw-text-input::placeholder,#multi-step-form .fw-text-input[type="text"]::placeholder,#multi-step-form .fw-textarea::placeholder,#multi-step-form input.msfp-registration-input::placeholder{color:#c8c8c8}
+#multi-step-form .fw-text-input::placeholder,#multi-step-form .fw-text-input[type="text"]::placeholder,#multi-step-form .fw-textarea::placeholder,#multi-step-form input.msfp-registration-input::placeholder{color:#fff}
 #multi-step-form .fw-text-input,#multi-step-form input.msfp-registration-input{height:40px}
-#multi-step-form .fw-step-block[data-type="fw-registration"] .msfp-input-container-password h3::after,#multi-step-form .fw-step-block[data-type="fw-registration"] .msfp-input-container-firstname h3::after,#multi-step-form .fw-step-block[data-type="fw-registration"] .msfp-input-container-lastname h3::after,#multi-step-form .fw-step-block[data-type="fw-registration"] .msfp-input-container-website h3::after,#multi-step-form .fw-step-block[data-type="fw-registration"] .msfp-input-container-bio h3::after{content:" "}
+#multi-step-form .fw-step-block[data-type="fw-registration"] .msfp-input-container-password .msf-h3::after,#multi-step-form .fw-step-block[data-type="fw-registration"] .msfp-input-container-firstname .msf-h3::after,#multi-step-form .fw-step-block[data-type="fw-registration"] .msfp-input-container-lastname .msf-h3::after,#multi-step-form .fw-step-block[data-type="fw-registration"] .msfp-input-container-website .msf-h3::after,#multi-step-form .fw-step-block[data-type="fw-registration"] .msfp-input-container-bio .msf-h3::after{content:" "}
 #multi-step-form .fw-textarea{padding:10px 20px 10px 60px;min-height:200px}#multi-step-form .fa.form-control-feedback{position:absolute;display:inline-block;top:auto;line-height:initial;border-right:1px solid #ddd;box-sizing:border-box;color:#bbb;font-size:18px;height:20px;left:35px;margin-top:10px;padding:0 10px 0 0;width:30px}
 #multi-step-form .fa.t-area{margin-top:13px}#multi-step-form .fa.fa-user{font-size:25px;margin-top:5px;padding-top:0}
 #multi-step-form .fa-spinner{-webkit-animation:spin 1s linear infinite;-moz-animation:spin 1s linear infinite;animation:spin 1s linear infinite}
@@ -81,9 +82,9 @@
 @media screen and (max-width:700px){#multi-step-form span.fw-radio-row{display:block;padding-right:10px}
 }@media all and (min-width:1023px){#multi-step-form .fw-wizard-buttons{margin-top:30px}
 }@media all and (min-width:769px){#multi-step-form .fw-step-part{padding:30px 0 30px 0;border-left:55px solid #546e7a}
-#multi-step-form .fw-wizard-step-header h2{margin:0 0 25px;line-height:1.4}#multi-step-form .fw-text-input,#multi-step-form .fw-text-input[type="text"],#multi-step-form input.msfp-registration-input{width:50%}
-#multi-step-form .fw-textarea{min-height:300px}#multi-step-form .select2.select2-container.select2-container--default.select2-container--focus,#multi-step-form .select2.select2-container.select2-container--default.select2-container--below,#multi-step-form .select2.select2-container.select2-container--default{width:50% !important}
-#multi-step-form h2.fw-step-part-title{margin:0 20px 20px 20px !important}#multi-step-form .fw-wizard-step-container h3{margin:10px 0 10px 0}
+#multi-step-form .fw-wizard-step-header .msf-h2{margin:0 0 25px;line-height:1.4}#multi-step-form .fw-text-input,#multi-step-form .fw-text-input[type="text"],#multi-step-form input.msfp-registration-input{width:50%}
+#multi-step-form .fw-textarea{min-height:300px}#multi-step-form .select2.select2-container.select2-container--default.select2-container--focus,#multi-step-form .select2.select2-container.select2-container--default.select2-container--below,#multi-step-form .select2.select2-container.select2-container--default{width:100% !important}
+#multi-step-form .fw-step-part-title{margin:0 20px 20px 20px !important}#multi-step-form .fw-wizard-step-container .msf-h3{margin:10px 0 10px 0}
 #multi-step-form .fw-block-invalid-alert{background:none !important;border:none !important;padding:0 !important}
 #multi-step-form .fw-alert-user{width:60%;margin-left:-30%;bottom:150px}#multi-step-form .fw-wizard-step-header-container{margin-bottom:40px}
 #multi-step-form .fw-radio-row input[type=radio]:checked+label:before{line-height:24px;font-size:41px}
