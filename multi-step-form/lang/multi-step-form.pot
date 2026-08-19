@@ -297,7 +297,7 @@ msgstr ""
 msgid "Custom RegEx Error Message"
 msgstr ""
 
-#: includes/admin/msf-admin.class.php:154, includes/msf.class.php:155
+#: includes/admin/msf-admin.class.php:154, includes/msf.class.php:171
 msgid "Registration"
 msgstr ""
 
@@ -625,7 +625,7 @@ msgstr ""
 msgid "Repeat to confirm"
 msgstr ""
 
-#: includes/lib/msf-blocks/file/msf-block-file.class.php:37, includes/msf.class.php:152
+#: includes/lib/msf-blocks/file/msf-block-file.class.php:37, includes/msf.class.php:168
 msgid "Choose a file"
 msgstr ""
 
@@ -649,11 +649,11 @@ msgstr ""
 msgid "SHOW SUMMARY"
 msgstr ""
 
-#: includes/lib/partials/form.php:40, includes/msf.class.php:161
+#: includes/lib/partials/form.php:40, includes/msf.class.php:177
 msgid "Some required Fields are empty"
 msgstr ""
 
-#: includes/lib/partials/form.php:40, includes/msf.class.php:162
+#: includes/lib/partials/form.php:40, includes/msf.class.php:178
 msgid "Please check the highlighted fields."
 msgstr ""
 
@@ -869,82 +869,82 @@ msgstr ""
 msgid "Save the filled forms as metadata along with registered/registering users."
 msgstr ""
 
-#: includes/msf.class.php:148
+#: includes/msf.class.php:164
 msgid "sending data"
 msgstr ""
 
-#: includes/msf.class.php:149
+#: includes/msf.class.php:165
 msgid "success"
 msgstr ""
 
-#: includes/msf.class.php:150
+#: includes/msf.class.php:166
 msgid "submit failed"
 msgstr ""
 
-#: includes/msf.class.php:151
+#: includes/msf.class.php:167
 msgid "Uploading file"
 msgstr ""
 
-#: includes/msf.class.php:153
+#: includes/msf.class.php:169
 msgid "show summary"
 msgstr ""
 
-#: includes/msf.class.php:154
+#: includes/msf.class.php:170
 msgid "hide summary"
 msgstr ""
 
-#: includes/msf.class.php:156
+#: includes/msf.class.php:172
 msgid "You are registering as"
 msgstr ""
 
-#: includes/msf.class.php:157
+#: includes/msf.class.php:173
 msgid "You will not be registered"
 msgstr ""
 
-#: includes/msf.class.php:159
+#: includes/msf.class.php:175
 msgid "Please fill all the required fields!"
 msgstr ""
 
-#: includes/msf.class.php:160
+#: includes/msf.class.php:176
 msgid "This field is required"
 msgstr ""
 
-#: includes/msf.class.php:163
+#: includes/msf.class.php:179
 msgid "No email address provided"
 msgstr ""
 
-#: includes/msf.class.php:164
+#: includes/msf.class.php:180
 msgid "Invalid email address"
 msgstr ""
 
-#: includes/msf.class.php:165
+#: includes/msf.class.php:181
 msgid "Email is already registered"
 msgstr ""
 
-#: includes/msf.class.php:166
+#: includes/msf.class.php:182
 msgid "No username provided"
 msgstr ""
 
-#: includes/msf.class.php:167
+#: includes/msf.class.php:183
 msgid "Invalid username"
 msgstr ""
 
-#: includes/msf.class.php:168
+#: includes/msf.class.php:184
 msgid "Username is already registered"
 msgstr ""
 
-#: includes/msf.class.php:169
+#: includes/msf.class.php:185
 msgid "Invalid number"
 msgstr ""
 
-#: includes/msf.class.php:170
+#: includes/msf.class.php:186
 msgid "Invalid input"
 msgstr ""
 
-#: includes/msf.class.php:171
+#: includes/msf.class.php:187
 msgid "Please solve the captcha first!"
 msgstr ""
 
-#: includes/msf.class.php:172
+#: includes/msf.class.php:188
 msgid "Emails provided don't match!"
 msgstr ""
